@@ -53,11 +53,13 @@ Download the XLShredMenu `.zip` from above and drag it onto the UnityModManager 
 
 ## Working v3 Mods:
 
-[XLShredMenu](https://github.com/blendermf/XLShredLoader/releases/tag/menu-mod-0.0.5) - [GitHub](https://github.com/blendermf/XLShredLoader/) by blendermf
+[XLShredMenu](https://github.com/blendermf/XLShredLoader/releases/tag/menu-mod-0.0.5) - [GitHub](https://github.com/blendermf/XLShredLoader/) by [blendermf](https://github.com/blendermf)
 
 [Babbo Settings](https://github.com/andreamatt/Skater-XL-mods/releases/tag/BabboSettings_v0.6.8) - by [andreamatt](https://github.com/andreamatt)
 
 [Sound Mod](https://github.com/andreamatt/Skater-XL-mods/releases/tag/SoundMod_v0.0.3) - by [andreamatt](https://github.com/andreamatt)
+
+DawgVinci's Mods - Join the [Discord](https://discord.gg/YnZc92f) and checkout `#v3-mods` for links to these! They include map fixes, extensions required by some maps, stats modifiers and much more needed for a better experience!
 
 # Installing XLMultiplayer
 
@@ -71,6 +73,6 @@ A window with a BIG button saying `Install` will pop up. Click that and confirm 
 
 Now XLMultiplayer will be installed. Press `P` to open the menu. Once in a server press `Tab` to hide the chat, `P` again to disconnect, and `M` to vote for a map.
 
-### My Public Servers Mod for XLMultiplayer
+#### My Public Servers Mod for XLMultiplayer
 
 I made a mod for XLMultiplayer which will allow more servers to show up in the server browser when you open up the menu. To install it download the 2 DLL files from [here](https://github.com/M4cs/XLMultiplayer/releases/download/0.8.1-psmc-0.1/XLMultiplayerPSMClient.zip). Replace the XLMultiplayer.dll and XLMultiplayerUI.dll files inside of `steamapps\common\Skater XL\Mods\XLMultiplayer`. This will allow you to view servers running the XLMultiplayer PSM Server mod. More info on hosting servers with that can be found below in the Hosting a Server section.

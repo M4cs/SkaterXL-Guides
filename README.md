@@ -76,3 +76,17 @@ Now XLMultiplayer will be installed. Press `P` to open the menu. Once in a serve
 #### My Public Servers Mod for XLMultiplayer
 
 I made a mod for XLMultiplayer which will allow more servers to show up in the server browser when you open up the menu. To install it download the 2 DLL files from [here](https://github.com/M4cs/XLMultiplayer/releases/download/0.8.1-psmc-0.1/XLMultiplayerPSMClient.zip). Replace the XLMultiplayer.dll and XLMultiplayerUI.dll files inside of `steamapps\common\Skater XL\Mods\XLMultiplayer`. This will allow you to view servers running the XLMultiplayer PSM Server mod. More info on hosting servers with that can be found below in the Hosting a Server section.
+
+# Setting Up a Multiplayer Server
+
+Download `Server.rar` from [here](https://github.com/silentbaws/XLMultiplayer/releases/tag/v0.8.1) and un-rar it somewhere on your computer. It only runs reliably on Windows but if you can figure out a way with Wine on Linux please contribute here!
+
+Setup your ServerConfig.json with a name, MOTD, and max players.
+
+Next you need to change `EnforceMaps` to TRUE. Then you need to make a directory in the same folder called `Maps`. This is where you will put all of your server's maps. If you are running it on a computer where you also play SkaterXL you can put the full path to your Documents Maps folder so something like `C:\Users\<YOUR NAME>\Documents\Skater XL\Maps\` as the `Maps` path in ServerConfig.json.
+
+Double click the XLMultiplayerServer.exe file and it should start to run. You will need to port forward `7777` and `7778` by default. **If you change your ports, you need to port forward that port and the number above it. So if you change to `1234` you need to PF `1234` and `1235`.** XLMultiplayer uses UDP packets so if you need to port forward for a certain type choose UDP.
+
+### My Server Doesn't Show Up In The Browser!!
+
+The normal XLMultiplaye server does not show all servers in the browser by default. I have made a fork of it to fix that so anybody using the Public Servers Mod client will be able to see them. Read above for info on obtaining the client mod. To install the server mod download the `XLMultiplayerServer.zip` from [here](https://github.com/M4cs/XLMultiplayer/releases/tag/v0.8.1-psm-0.1). Replace the files inside of your current XLMultiplayer server directory with the ones in the zip except `ServerConfig.json`. Now when you start your server you will be visible to everybody using the PSM client!

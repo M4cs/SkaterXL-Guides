@@ -3,6 +3,17 @@ A collection of guides to get you setup with Skater XL and modding for the best 
 
 <p align="center"><img src="https://i.imgur.com/HRYYEcR.png"></p>
 
+#### Table of Contents
+#### I. [Setting Up Your Game](https://github.com/M4cs/SkaterXL-Guides#setting-your-game-up-for-mods)
+#### II. [Installing Mods](https://github.com/M4cs/SkaterXL-Guides#installing-mods)
+  1. [Getting Started](https://github.com/M4cs/SkaterXL-Guides#getting-started)
+  2. [Installing UMM](https://github.com/M4cs/SkaterXL-Guides#installing-unitymodmanager)
+  3. [Installing XLShredMenu](https://github.com/M4cs/SkaterXL-Guides#installing-xlshredmenu)
+  4. [Installing Other Mods](https://github.com/M4cs/SkaterXL-Guides#installing-other-mods)
+  5. [Recommended Mods](https://github.com/M4cs/SkaterXL-Guides#working-v3-mods)
+#### III. [Installing XLMultiplayer](https://github.com/M4cs/SkaterXL-Guides#installing-xlmultiplayer)
+#### IV. [Setting Up a Server](https://github.com/M4cs/SkaterXL-Guides#setting-up-a-multiplayer-server)
+
 # Setting Your Game Up For Mods
 
 When you first download SkaterXL it will be running the stable v2 version. Most mods are not stable/compatible with that version anymore so you need to update to a beta build.

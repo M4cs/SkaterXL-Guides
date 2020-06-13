@@ -51,6 +51,14 @@ Download the XLShredMenu `.zip` from above and drag it onto the UnityModManager 
 
 **Most** mods work by just dragging and dropping onto the UnityModManager window like with XLShredMenu. **XLMultiplayer does not work the same way. It comes with an installer so please follow the guide below for installing that.**
 
+## Working v3 Mods:
+
+[XLShredMenu](https://github.com/blendermf/XLShredLoader/releases/tag/menu-mod-0.0.5) - [GitHub](https://github.com/blendermf/XLShredLoader/) by blendermf
+
+[Babbo Settings](https://github.com/andreamatt/Skater-XL-mods/releases/tag/BabboSettings_v0.6.8) - by [andreamatt](https://github.com/andreamatt)
+
+[Sound Mod](https://github.com/andreamatt/Skater-XL-mods/releases/tag/SoundMod_v0.0.3) - by [andreamatt](https://github.com/andreamatt)
+
 # Installing XLMultiplayer
 
 [silentbaws](https://github.com/silentbaws) made a mod for SkaterXL which allows players to play together in online servers. You can do so by following the instructions below:
